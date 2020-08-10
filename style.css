@@ -361,7 +361,8 @@ label {
 }
 
 .ad-baner2{
-    width:250px;
+    float : left;
+    /* width:1000px; */
     margin:0 auto;
 }
 .ad-banner3{
