@@ -1,2 +1,2 @@
 User-agent: *Allow:/
-Sitemap: https://happy-pare-05417f.netlify.app/sitemap.xml
+Sitemap: https://bloodtest.ga/sitemap.xml
