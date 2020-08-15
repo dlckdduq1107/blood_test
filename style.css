@@ -92,8 +92,8 @@ body {
 }
 
 .file-upload-image {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 80%;
+  max-width: 80%;
   margin: auto;
   padding: 20px;
 }
@@ -324,7 +324,7 @@ label {
     font-family: 'Jua', sans-serif;
     line-height: 1.71;
     text-align: center;
-    color: #f73737;
+    color: #000000;
     font-size: 1rem;
     text-decoration: underline;
 }
@@ -332,7 +332,7 @@ label {
     font-family: 'Jua', sans-serif;
     line-height: 1.71;
     text-align: center;
-    color: #f73737;
+    color: #000000;
     font-size: 1rem;
     text-decoration: underline;
 }
@@ -350,19 +350,215 @@ label {
 
 .type-name{
     color: #75D701;
-    font-size: 2rem;
+    font-size: 2.7rem;
 }
 .type-explain{
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 50%;
     margin: 0 auto;
 }
 .type-celeb{
-    font-size:1.35rem;
+    font-size:2rem;
     color: #A593E0;
     width:78%;
     margin: 0 auto;
 }
+.bar-container {
+  height: 2.7rem;
+}
+.동아시아-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.동아시아-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.유럽-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color:  rgba(117, 204, 84, 0.2);
+}
+.유럽-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color:  rgba(117, 204, 84, 1);
+}
+.남아메리카-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
+}
+.남아메리카-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
+
+}
+
+.북아메리카-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color:  rgba(195, 140, 102, 0.2);
+
+}
+.북아메리카-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
+}
+
+.아프리카-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(235, 166, 190, 0.2);
+}
+.아프리카-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(235, 166, 190, 1);
+}
+
+.중동아시아-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(49, 132, 155, 0.2);
+}
+.중동아시아-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(49, 132, 155, 1);
+}
+.animal-label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+}
+.label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.animal-explain {
+    font-size: 1.5rem;
+}
+.동아시아type-name {
+    color: rgba(27, 175, 234, 1);
+    font-size: 2rem;
+}
+
+.유럽type-name {
+    color: rgba(117, 204, 84, 1);
+    font-size: 2rem;
+}
+
+.중동아시아type-name {
+    color: rgba(49, 132, 155, 1);
+    font-size: 2rem;
+}
+
+.북아메리카type-name {
+    color: rgba(195, 140, 102, 1);
+    font-size: 2rem;
+}
+
+.남아메리카type-name {
+    color: rgba(251, 176, 59, 1);
+    font-size: 2rem;
+}
+
+.아프리카type-name {
+    color: rgba(235, 166, 190, 1);
+    font-size: 2rem;
+}
+
+
+.동아시아type-celeb {
+    color: rgba(27, 175, 234, 1);
+    font-size: 1.7rem;
+}
+
+.유럽type-celeb {
+    color: rgba(117, 204, 84, 1);
+    font-size: 1.7rem;
+}
+
+.중동아시아type-celeb {
+    color: rgba(49, 132, 155, 1);
+    font-size: 1.7rem;
+}
+
+.북아메리카type-celeb {
+    color: rgba(195, 140, 102, 1);
+    font-size: 1.7rem;
+}
+
+.남아메리카type-celeb {
+    color: rgba(251, 176, 59, 1);
+    font-size: 1.7rem;
+}
+
+.아프리카type-celeb {
+    color: rgba(235, 166, 190, 1);
+    font-size: 1.7rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.5);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.9);
+}
+.new{
+    color: rgba(255,0,0,.9);
+}
+
+
+
+
+
 
 
 .ad-baner{
