@@ -562,6 +562,9 @@ label {
     border: 1px solid transparent;
     border-radius: .25rem;
 }
+.caution{
+    color: rgba(200,0,0,1)
+}
 
 
 
